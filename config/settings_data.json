@@ -19,9 +19,9 @@
     "typography--paragraph": "karla_n4",
     "typography--paragraph--size": "medium",
     "search--show-in-header": true,
-    "social--instagram--url": "https://instagram.com/valleysausage",
+    "social--instagram--url": "https:\/\/instagram.com\/valleysausage",
     "cart--show-note": true,
-    "checkout_logo_image": "shopify://shop_images/Valley_sausage__circle_logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Valley_sausage__circle_logo.png",
     "checkout_logo_size": "medium",
     "sections": {
       "header": {
@@ -37,7 +37,7 @@
           "show-region-selector": true,
           "show-locale-selector": true,
           "header-logo-center": true,
-          "logo": "shopify://shop_images/Valley_sausage_navy_logo.png",
+          "logo": "shopify:\/\/shop_images\/Valley_sausage_navy_logo.png",
           "logo-height": 90,
           "mobile-logo-height": 30
         }
@@ -49,24 +49,31 @@
             "type": "about",
             "settings": {
               "about-title": "Store",
-              "text": "<p>© Valley Sausage Co.</p>",
+              "text": "<p>© Valley Sausage Co.<\/p>",
               "subscribe--show-social-icons": true
             }
           },
           "footer--menu": {
             "type": "menu",
-            "settings": { "menu-title": "Info", "menu": "footer" }
+            "settings": {
+              "menu-title": "Info",
+              "menu": "footer"
+            }
           },
           "footer--subscribe": {
             "type": "subscribe",
             "settings": {
               "newsletter--heading": "",
-              "newsletter--info": "<p>Sign up to our mailing list</p>",
+              "newsletter--info": "<p>Sign up to our mailing list<\/p>",
               "subscribe--show-newsletter": false
             }
           }
         },
-        "block_order": ["footer--about", "footer--menu", "footer--subscribe"],
+        "block_order": [
+          "footer--about",
+          "footer--menu",
+          "footer--subscribe"
+        ],
         "settings": {
           "background-color": "accent-1",
           "light-text": false,
@@ -90,8 +97,8 @@
           "home-page-only": false,
           "background-color": "dark",
           "light-text": true,
-          "text": "Pre-order for Friday Pick up / delivery !",
-          "link": "shopify://collections/all"
+          "text": "Pre-order for Friday Pick up \/ delivery !",
+          "link": "shopify:\/\/collections\/all"
         }
       },
       "162216811974207de9": {
@@ -183,7 +190,7 @@
             "type": "image",
             "settings": {
               "title": "Grid image",
-              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
               "link-text": "View more"
             }
           },
@@ -191,7 +198,7 @@
             "type": "image",
             "settings": {
               "title": "Grid image",
-              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
               "link-text": "View more"
             }
           },
@@ -199,7 +206,7 @@
             "type": "image",
             "settings": {
               "title": "Grid image",
-              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
               "link-text": "View more"
             }
           },
@@ -207,7 +214,7 @@
             "type": "image",
             "settings": {
               "title": "Grid image",
-              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+              "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
               "link-text": "View more"
             }
           }
@@ -245,7 +252,7 @@
           "mobile-overlay": true,
           "overline": "Overline text",
           "title": "Image with Text",
-          "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+          "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
           "link-text": ""
         }
       },
@@ -254,7 +261,7 @@
         "settings": {
           "background-color": "light",
           "heading": "Subscribe to our newsletter",
-          "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+          "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
         }
       },
       "1622168186514b2a01": {
@@ -265,8 +272,8 @@
           "background-color": "none",
           "theme": "grayscale",
           "heading": "Our store",
-          "address": "<p>391 Sunrise Blvd,<br/>Los Angeles<br/>CA 94108, USA</p>",
-          "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
+          "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
+          "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
         }
       },
       "162216819455e45adc": {
@@ -275,7 +282,7 @@
           "background-color": "light",
           "overline": "Overline text",
           "heading": "Introduce your brand",
-          "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.</p>"
+          "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
         }
       },
       "1622168216035eefb8": {
@@ -301,8 +308,8 @@
               "text-width": "small",
               "overline": "Overline text",
               "title": "Slide heading",
-              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-              "link-url": "/",
+              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+              "link-url": "\/",
               "link-text": "View more"
             }
           },
@@ -313,8 +320,8 @@
               "text-width": "small",
               "overline": "Overline text",
               "title": "Slide heading",
-              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-              "link-url": "/",
+              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+              "link-url": "\/",
               "link-text": "View more"
             }
           },
@@ -325,8 +332,8 @@
               "text-width": "small",
               "overline": "Overline text",
               "title": "Slide heading",
-              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-              "link-url": "/",
+              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+              "link-url": "\/",
               "link-text": "View more"
             }
           },
@@ -337,8 +344,8 @@
               "text-width": "small",
               "overline": "Overline text",
               "title": "Slide heading",
-              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-              "link-url": "/",
+              "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+              "link-url": "\/",
               "link-text": "View more"
             }
           }
@@ -394,13 +401,14 @@
           "mobile-overlay": true,
           "overline": "Overline text",
           "title": "Image with Text",
-          "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+          "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
           "link-text": ""
         }
       },
       "product-recommendations": {
         "type": "product-recommendations",
-        "settings": {}
+        "settings": {
+        }
       },
       "collection--header": {
         "type": "collection--header",
@@ -441,12 +449,14 @@
               "image-size": "fit-to-container",
               "overline": "Overline text",
               "title": "Grid promotion",
-              "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.</p>",
+              "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.<\/p>",
               "link-text": "Optional link"
             }
           }
         },
-        "block_order": ["16d51bbc-18c1-4ded-8838-8c3194ddde5e"],
+        "block_order": [
+          "16d51bbc-18c1-4ded-8838-8c3194ddde5e"
+        ],
         "settings": {
           "products-per-row--desktop": 4,
           "products-per-row--mobile": "1"
@@ -454,7 +464,9 @@
       },
       "recent-products": {
         "type": "recent-products",
-        "settings": { "heading": "Recently viewed" }
+        "settings": {
+          "heading": "Recently viewed"
+        }
       },
       "blog": {
         "type": "blog",
@@ -531,24 +543,31 @@
               "type": "about",
               "settings": {
                 "about-title": "Store",
-                "text": "<p>© Your brand name here</p>",
+                "text": "<p>© Your brand name here<\/p>",
                 "subscribe--show-social-icons": true
               }
             },
             "footer--menu": {
               "type": "menu",
-              "settings": { "menu-title": "Info", "menu": "footer" }
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
             },
             "footer--subscribe": {
               "type": "subscribe",
               "settings": {
                 "newsletter--heading": "Subscribe",
-                "newsletter--info": "<p>Sign up to our mailing list</p>",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
                 "subscribe--show-newsletter": true
               }
             }
           },
-          "block_order": ["footer--about", "footer--menu", "footer--subscribe"],
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
           "settings": {
             "show-region-selector": true,
             "show-locale-selector": true,
@@ -660,7 +679,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -668,7 +687,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -676,7 +695,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -684,7 +703,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             }
@@ -722,7 +741,7 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
@@ -731,7 +750,7 @@
           "settings": {
             "background-color": "light",
             "heading": "Subscribe to our newsletter",
-            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         },
         "1622168186514b2a01": {
@@ -742,8 +761,8 @@
             "background-color": "none",
             "theme": "grayscale",
             "heading": "Our store",
-            "address": "<p>391 Sunrise Blvd,<br/>Los Angeles<br/>CA 94108, USA</p>",
-            "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
+            "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
           }
         },
         "162216819455e45adc": {
@@ -752,7 +771,7 @@
             "background-color": "light",
             "overline": "Overline text",
             "heading": "Introduce your brand",
-            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.</p>"
+            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
           }
         },
         "1622168216035eefb8": {
@@ -778,8 +797,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -790,8 +809,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -802,8 +821,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -814,8 +833,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             }
@@ -871,13 +890,14 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
         "product-recommendations": {
           "type": "product-recommendations",
-          "settings": {}
+          "settings": {
+          }
         },
         "collection--header": {
           "type": "collection--header",
@@ -918,12 +938,14 @@
                 "image-size": "fit-to-container",
                 "overline": "Overline text",
                 "title": "Grid promotion",
-                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.</p>",
+                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.<\/p>",
                 "link-text": "Optional link"
               }
             }
           },
-          "block_order": ["16d51bbc-18c1-4ded-8838-8c3194ddde5e"],
+          "block_order": [
+            "16d51bbc-18c1-4ded-8838-8c3194ddde5e"
+          ],
           "settings": {
             "products-per-row--desktop": 4,
             "products-per-row--mobile": "1"
@@ -931,7 +953,9 @@
         },
         "recent-products": {
           "type": "recent-products",
-          "settings": { "heading": "Recently viewed" }
+          "settings": {
+            "heading": "Recently viewed"
+          }
         },
         "blog": {
           "type": "blog",
@@ -1007,24 +1031,31 @@
               "type": "about",
               "settings": {
                 "about-title": "Store",
-                "text": "<p>© Your brand name here</p>",
+                "text": "<p>© Your brand name here<\/p>",
                 "subscribe--show-social-icons": true
               }
             },
             "footer--menu": {
               "type": "menu",
-              "settings": { "menu-title": "Info", "menu": "footer" }
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
             },
             "footer--subscribe": {
               "type": "subscribe",
               "settings": {
                 "newsletter--heading": "Subscribe",
-                "newsletter--info": "<p>Sign up to our mailing list</p>",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
                 "subscribe--show-newsletter": true
               }
             }
           },
-          "block_order": ["footer--about", "footer--menu", "footer--subscribe"],
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
           "settings": {
             "show-region-selector": true,
             "show-locale-selector": true,
@@ -1136,7 +1167,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -1144,7 +1175,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -1152,7 +1183,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -1160,7 +1191,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             }
@@ -1198,7 +1229,7 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
@@ -1207,7 +1238,7 @@
           "settings": {
             "background-color": "light",
             "heading": "Subscribe to our newsletter",
-            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         },
         "1622168186514b2a01": {
@@ -1218,8 +1249,8 @@
             "background-color": "none",
             "theme": "grayscale",
             "heading": "Our store",
-            "address": "<p>391 Sunrise Blvd,<br/>Los Angeles<br/>CA 94108, USA</p>",
-            "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
+            "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
           }
         },
         "162216819455e45adc": {
@@ -1228,7 +1259,7 @@
             "background-color": "light",
             "overline": "Overline text",
             "heading": "Introduce your brand",
-            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.</p>"
+            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
           }
         },
         "1622168216035eefb8": {
@@ -1254,8 +1285,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -1266,8 +1297,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -1278,8 +1309,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -1290,8 +1321,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             }
@@ -1347,13 +1378,14 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
         "product-recommendations": {
           "type": "product-recommendations",
-          "settings": {}
+          "settings": {
+          }
         },
         "collection--header": {
           "type": "collection--header",
@@ -1394,12 +1426,14 @@
                 "image-size": "fit-to-container",
                 "overline": "Overline text",
                 "title": "Grid promotion",
-                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.</p>",
+                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.<\/p>",
                 "link-text": "Optional link"
               }
             }
           },
-          "block_order": ["16d51bbc-18c1-4ded-8838-8c3194ddde5e"],
+          "block_order": [
+            "16d51bbc-18c1-4ded-8838-8c3194ddde5e"
+          ],
           "settings": {
             "products-per-row--desktop": 4,
             "products-per-row--mobile": "1"
@@ -1407,7 +1441,9 @@
         },
         "recent-products": {
           "type": "recent-products",
-          "settings": { "heading": "Recently viewed" }
+          "settings": {
+            "heading": "Recently viewed"
+          }
         },
         "blog": {
           "type": "blog",
@@ -1483,24 +1519,31 @@
               "type": "about",
               "settings": {
                 "about-title": "Store",
-                "text": "<p>© Your brand name here</p>",
+                "text": "<p>© Your brand name here<\/p>",
                 "subscribe--show-social-icons": true
               }
             },
             "footer--menu": {
               "type": "menu",
-              "settings": { "menu-title": "Info", "menu": "footer" }
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
             },
             "footer--subscribe": {
               "type": "subscribe",
               "settings": {
                 "newsletter--heading": "Subscribe",
-                "newsletter--info": "<p>Sign up to our mailing list</p>",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
                 "subscribe--show-newsletter": true
               }
             }
           },
-          "block_order": ["footer--about", "footer--menu", "footer--subscribe"],
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
           "settings": {
             "show-region-selector": true,
             "show-locale-selector": true,
@@ -1612,7 +1655,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -1620,7 +1663,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -1628,7 +1671,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -1636,7 +1679,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             }
@@ -1674,7 +1717,7 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
@@ -1683,7 +1726,7 @@
           "settings": {
             "background-color": "light",
             "heading": "Subscribe to our newsletter",
-            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         },
         "1622168186514b2a01": {
@@ -1694,8 +1737,8 @@
             "background-color": "none",
             "theme": "grayscale",
             "heading": "Our store",
-            "address": "<p>391 Sunrise Blvd,<br/>Los Angeles<br/>CA 94108, USA</p>",
-            "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
+            "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
           }
         },
         "162216819455e45adc": {
@@ -1704,7 +1747,7 @@
             "background-color": "light",
             "overline": "Overline text",
             "heading": "Introduce your brand",
-            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.</p>"
+            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
           }
         },
         "1622168216035eefb8": {
@@ -1730,8 +1773,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -1742,8 +1785,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -1754,8 +1797,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -1766,8 +1809,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             }
@@ -1823,13 +1866,14 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
         "product-recommendations": {
           "type": "product-recommendations",
-          "settings": {}
+          "settings": {
+          }
         },
         "collection--header": {
           "type": "collection--header",
@@ -1870,12 +1914,14 @@
                 "image-size": "fit-to-container",
                 "overline": "Overline text",
                 "title": "Grid promotion",
-                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.</p>",
+                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.<\/p>",
                 "link-text": "Optional link"
               }
             }
           },
-          "block_order": ["16d51bbc-18c1-4ded-8838-8c3194ddde5e"],
+          "block_order": [
+            "16d51bbc-18c1-4ded-8838-8c3194ddde5e"
+          ],
           "settings": {
             "products-per-row--desktop": 4,
             "products-per-row--mobile": "1"
@@ -1883,7 +1929,9 @@
         },
         "recent-products": {
           "type": "recent-products",
-          "settings": { "heading": "Recently viewed" }
+          "settings": {
+            "heading": "Recently viewed"
+          }
         },
         "blog": {
           "type": "blog",
@@ -1959,24 +2007,31 @@
               "type": "about",
               "settings": {
                 "about-title": "Store",
-                "text": "<p>© Your brand name here</p>",
+                "text": "<p>© Your brand name here<\/p>",
                 "subscribe--show-social-icons": true
               }
             },
             "footer--menu": {
               "type": "menu",
-              "settings": { "menu-title": "Info", "menu": "footer" }
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
             },
             "footer--subscribe": {
               "type": "subscribe",
               "settings": {
                 "newsletter--heading": "Subscribe",
-                "newsletter--info": "<p>Sign up to our mailing list</p>",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
                 "subscribe--show-newsletter": true
               }
             }
           },
-          "block_order": ["footer--about", "footer--menu", "footer--subscribe"],
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
           "settings": {
             "show-region-selector": true,
             "show-locale-selector": true,
@@ -2088,7 +2143,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -2096,7 +2151,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -2104,7 +2159,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             },
@@ -2112,7 +2167,7 @@
               "type": "image",
               "settings": {
                 "title": "Grid image",
-                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.</p>",
+                "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
                 "link-text": "View more"
               }
             }
@@ -2150,7 +2205,7 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
@@ -2159,7 +2214,7 @@
           "settings": {
             "background-color": "light",
             "heading": "Subscribe to our newsletter",
-            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         },
         "1622168186514b2a01": {
@@ -2170,8 +2225,8 @@
             "background-color": "none",
             "theme": "grayscale",
             "heading": "Our store",
-            "address": "<p>391 Sunrise Blvd,<br/>Los Angeles<br/>CA 94108, USA</p>",
-            "hours": "<p>Monday - Friday<br/>10am - 6pm<br/><br/>Saturday - Sunday<br/>12pm - 5pm</p>"
+            "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
           }
         },
         "162216819455e45adc": {
@@ -2180,7 +2235,7 @@
             "background-color": "light",
             "overline": "Overline text",
             "heading": "Introduce your brand",
-            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.</p>"
+            "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
           }
         },
         "1622168216035eefb8": {
@@ -2206,8 +2261,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -2218,8 +2273,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -2230,8 +2285,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             },
@@ -2242,8 +2297,8 @@
                 "text-width": "small",
                 "overline": "Overline text",
                 "title": "Slide heading",
-                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
-                "link-url": "/",
+                "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+                "link-url": "\/",
                 "link-text": "View more"
               }
             }
@@ -2299,13 +2354,14 @@
             "mobile-overlay": true,
             "overline": "Overline text",
             "title": "Image with Text",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
             "link-text": ""
           }
         },
         "product-recommendations": {
           "type": "product-recommendations",
-          "settings": {}
+          "settings": {
+          }
         },
         "collection--header": {
           "type": "collection--header",
@@ -2346,12 +2402,14 @@
                 "image-size": "fit-to-container",
                 "overline": "Overline text",
                 "title": "Grid promotion",
-                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.</p>",
+                "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.<\/p>",
                 "link-text": "Optional link"
               }
             }
           },
-          "block_order": ["16d51bbc-18c1-4ded-8838-8c3194ddde5e"],
+          "block_order": [
+            "16d51bbc-18c1-4ded-8838-8c3194ddde5e"
+          ],
           "settings": {
             "products-per-row--desktop": 4,
             "products-per-row--mobile": "1"
@@ -2359,7 +2417,9 @@
         },
         "recent-products": {
           "type": "recent-products",
-          "settings": { "heading": "Recently viewed" }
+          "settings": {
+            "heading": "Recently viewed"
+          }
         },
         "blog": {
           "type": "blog",

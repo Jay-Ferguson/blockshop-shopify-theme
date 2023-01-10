@@ -1,1 +1,114 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Sausagerolls-4.jpg","text-position":"bottom-left","text-width":"small","overline":"Valley Sausage Co.","title":"Sausage, charcuterie & more delivered to your door.","description":"","link-url":"shopify:\/\/collections\/holiday-collection","link-text":"Holiday Pre-order now open!"}}},"block_order":["slide-0"],"settings":{"text-color":"auto","background-color":"none","spacing-above":false,"spacing-below":false,"spacing-around-blocks":false,"image-height":3,"darken-image":true,"blocks_per_slide":1,"blocks_per_slide_mobile":"1","box-around-text":true,"mobile-overlay":true,"auto-rotate":false,"rotate-frequency":4,"transition_type":"slide"}},"16569606659c9ba6b2":{"type":"featured-product","blocks":{"1656960665c7a8b1df-1":{"type":"heading","settings":{}},"1656960665c7a8b1df-2":{"type":"vendor","settings":{}},"1656960665c7a8b1df-3":{"type":"price","settings":{}},"1656960665c7a8b1df-4":{"type":"options","settings":{"variant-style":"buttons","swatches-enabled":true,"size-chart-enabled":true,"size-chart-option":"size","size-chart-content":""}},"1656960665c7a8b1df-5":{"type":"buy-buttons","settings":{"smart-payment-enabled":true}}},"block_order":["1656960665c7a8b1df-1","1656960665c7a8b1df-2","1656960665c7a8b1df-3","1656960665c7a8b1df-4","1656960665c7a8b1df-5"],"settings":{"background-color":"none","container-width":4,"spacing-above":true,"spacing-below":true,"featured_product":"holiday-sausage-roll-pre-order-4-pack","loop-enabled":false}},"map":{"type":"map","settings":{"api-key":"","map-address":"101 A Schneider Rd, Kanata","container-width":4,"spacing-above":true,"spacing-below":true,"background-color":"none","light-text":false,"theme":"grayscale","heading":"Our store","address":"<p>Maison K Commercial Kitchen <\/p><p>101 Schneider Rd, Kanata ON K2K 1Y3<\/p>","hours":"<p><br\/><br\/><\/p>","image":"shopify:\/\/shop_images\/valleysausage.png"}}},"order":["slideshow","16569606659c9ba6b2","map"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sausagerolls-4.jpg",
+            "text-position": "bottom-left",
+            "text-width": "small",
+            "overline": "Valley Sausage Co.",
+            "title": "Sausage, charcuterie & more delivered to your door.",
+            "description": "",
+            "link-url": "shopify:\/\/collections\/holiday-collection",
+            "link-text": "Holiday Pre-order now open!"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "image-height": 3,
+        "darken-image": true,
+        "blocks_per_slide": 1,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": true,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 4,
+        "transition_type": "slide"
+      }
+    },
+    "16569606659c9ba6b2": {
+      "type": "featured-product",
+      "blocks": {
+        "1656960665c7a8b1df-1": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "1656960665c7a8b1df-2": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "1656960665c7a8b1df-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1656960665c7a8b1df-4": {
+          "type": "options",
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "1656960665c7a8b1df-5": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "1656960665c7a8b1df-1",
+        "1656960665c7a8b1df-2",
+        "1656960665c7a8b1df-3",
+        "1656960665c7a8b1df-4",
+        "1656960665c7a8b1df-5"
+      ],
+      "settings": {
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured_product": "holiday-sausage-roll-pre-order-4-pack",
+        "loop-enabled": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "settings": {
+        "api-key": "",
+        "map-address": "101 A Schneider Rd, Kanata",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "theme": "grayscale",
+        "heading": "Our store",
+        "address": "<p>Maison K Commercial Kitchen <\/p><p>101 Schneider Rd, Kanata ON K2K 1Y3<\/p>",
+        "hours": "<p><br\/><br\/><\/p>",
+        "image": "shopify:\/\/shop_images\/tam-store-map.jpg"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "16569606659c9ba6b2",
+    "map"
+  ]
+}
