@@ -3,7 +3,7 @@
     "color--accent": "#bf7252",
     "color-page-bg": "#ffffff",
     "color-text": "#212121",
-    "color--alternative": "{{ shop.brand.colors.secondary[0].background }}",
+    "color--alternative": "#f2e8e8",
     "color-border": "#e0e0e0",
     "color-button": "#ffffff",
     "color-button-bg": "#212121",
