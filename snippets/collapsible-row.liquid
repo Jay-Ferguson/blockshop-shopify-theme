@@ -1,0 +1,50 @@
+{%- liquid
+  unless remove_assets
+    render 'section-assets', name: 'collapsible-row'
+  endunless
+-%}
+
+{%- if heading != blank -%}
+  <collapsible-row-root class="collapsible-row--root" style="display:block;">
+    <div class="collapsible-row--wrapper">
+      <button
+        class="collapsible-row--toggle"
+        aria-expanded="false"
+        tabindex="0"
+      >
+        <label
+          class="collapsible-row--heading"
+          data-item="accent-text"
+          for="{{ unique_id }}"
+        >
+          {{- heading -}}
+        </label>
+
+        {%- liquid
+          render 'icons', icon: 'chevron-up'
+          render 'icons', icon: 'chevron-down'
+        -%}
+      </button>
+
+      {%- if page_content != blank or description != blank -%}
+        <transition-root class="collapsible-row--content-wrapper">
+          <div
+            id="{{ unique_id }}"
+            class="collapsible-row--content"
+            data-item="rte-content"
+            data-transition="fade-out"
+          >
+            {%- liquid
+              if page_content != blank
+               echo pages[page_content].content
+              elsif description != blank
+                echo description
+              endif
+            -%}
+          </div>
+        </transition-root>
+      {%- endif -%}
+
+    </div>
+  </collapsible-row-root>
+{% endif %}

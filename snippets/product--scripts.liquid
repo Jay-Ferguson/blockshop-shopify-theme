@@ -1,0 +1,22 @@
+{%- render 'section-assets', name: 'product', type: 'style' -%}
+
+{%- if load_video -%}
+  <script type="module">
+    import "{{ 'product-video.js' | asset_url }}";
+  </script>
+{%- endif -%}
+
+{%- if load_model -%}
+  <script type="application/json" id="product-model--json">
+    {%- assign product_models = product.media | where: 'media_type', 'model' -%}
+    {{- product_models | json -}}
+  </script>
+  <script type="module">
+    import "{{ 'product-model.js' | asset_url }}";
+  </script>
+  <link
+    href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css"
+    rel="stylesheet"
+    media="all"
+  />
+{%- endif -%}
