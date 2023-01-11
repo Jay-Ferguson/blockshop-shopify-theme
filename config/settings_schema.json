@@ -4,8 +4,8 @@
     "theme_name": "Blockshop",
     "theme_author": "Troop Themes",
     "theme_version": "8.6.2",
-    "theme_documentation_url": "https://support.troopthemes.com/guide/getting-started/",
-    "theme_support_url": "http://support.troopthemes.com/"
+    "theme_documentation_url": "https:\/\/support.troopthemes.com\/guide\/getting-started\/",
+    "theme_support_url": "http:\/\/support.troopthemes.com\/"
   },
   {
     "name": "Colors",
@@ -204,14 +204,14 @@
         "id": "product--show-rating",
         "label": "Show product rating",
         "default": false,
-        "info": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/en/manual/products/product-reviews)"
+        "info": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/en\/manual\/products\/product-reviews)"
       },
       {
         "type": "checkbox",
         "id": "product--swatches-enabled",
         "label": "Enable color swatches",
         "default": false,
-        "info": "Display color swatches when available. [Learn more](https://support.troopthemes.com/guide/color-swatch-guide)"
+        "info": "Display color swatches when available. [Learn more](https:\/\/support.troopthemes.com\/guide\/color-swatch-guide)"
       },
       {
         "id": "product--text-alignment",
@@ -326,7 +326,7 @@
         "type": "textarea",
         "placeholder": "Limited edition, Sustainable, Organic",
         "default": "Limited edition, Sustainable, Organic",
-        "info": "[Learn more](https://support.troopthemes.com/guide/configuring-product-labels/)"
+        "info": "[Learn more](https:\/\/support.troopthemes.com\/guide\/configuring-product-labels\/)"
       },
       {
         "type": "header",
@@ -406,43 +406,43 @@
         "type": "text",
         "id": "social--instagram--url",
         "label": "Instagram",
-        "info": "https://instagram.com/shopify"
+        "info": "https:\/\/instagram.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--facebook--url",
         "label": "Facebook",
-        "info": "https://www.facebook.com/shopify"
+        "info": "https:\/\/www.facebook.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--youtube--url",
         "label": "Youtube",
-        "info": "https://www.youtube.com/user/shopify"
+        "info": "https:\/\/www.youtube.com\/user\/shopify"
       },
       {
         "type": "text",
         "id": "social--vimeo--url",
         "label": "Vimeo",
-        "info": "https://vimeo.com/shopify"
+        "info": "https:\/\/vimeo.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--pinterest--url",
         "label": "Pinterest",
-        "info": "https://www.pinterest.com/shopify"
+        "info": "https:\/\/www.pinterest.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--twitter--url",
         "label": "Twitter",
-        "info": "https://twitter.com/shopify"
+        "info": "https:\/\/twitter.com\/shopify"
       },
       {
         "type": "text",
         "id": "social--tiktok--url",
         "label": "TikTok",
-        "info": "https://tiktok.com/@shopify"
+        "info": "https:\/\/tiktok.com\/@shopify"
       }
     ]
   },

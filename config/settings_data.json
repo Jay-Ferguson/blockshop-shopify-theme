@@ -6,12 +6,6 @@
     "color--alternative": "{{ shop.brand.colors.secondary[0].background }}",
     "color--border": "#e0e0e0",
     "color--button": "#ffffff",
-    "bg-color-button": "#212121",
-    "color-header-bg": "#fafafa",
-    "color-header": "#212121",
-    "color-header-cart": "#212121",
-    "bg-color--footer": "#f7f7f7",
-    "color--footer": "#212121",
     "typography--heading": "futura_n4",
     "typography--heading--uppercase": false,
     "typography--heading--size": "medium",
@@ -23,6 +17,12 @@
     "cart--show-note": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Valley_sausage__circle_logo.png",
     "checkout_logo_size": "medium",
+    "bg-color-button": "#212121",
+    "color-header-bg": "#fafafa",
+    "color-header": "#212121",
+    "color-header-cart": "#212121",
+    "bg-color--footer": "#f7f7f7",
+    "color--footer": "#212121",
     "sections": {
       "header": {
         "type": "header",
@@ -95,8 +95,8 @@
         "settings": {
           "enabled": true,
           "home-page-only": false,
-          "background-color": "dark",
-          "light-text": true,
+          "background-color": "accent-1",
+          "light-text": false,
           "text": "Pre-order for Friday Pick up \/ delivery !",
           "link": "shopify:\/\/collections\/all"
         }
