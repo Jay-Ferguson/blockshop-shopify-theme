@@ -1,1 +1,110 @@
-{"sections":{"main":{"type":"page","settings":{"show-title":true,"background-color":"none","light-text":false,"container-width":4,"spacing-above":true,"spacing-below":true}},"1662762878b0f661e1":{"type":"slideshow","blocks":{"16627628783a501090-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/valleysausageco-13.jpg","text-position":"bottom-left","text-width":"medium","overline":"","title":"Will Thorne-Morris","description":"<p>Co-founder, Head Butcher & Chef <\/p>","link-url":"","link-text":""}},"16627628783a501090-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/TamaraSasloveHeadshot.jpg","text-position":"bottom-left","text-width":"medium","overline":"","title":"Tamara Saslove","description":"<p>Co-founder, Dietitian & Chef <\/p>","link-url":"","link-text":""}},"16627628783a501090-2":{"type":"image","settings":{"text-position":"bottom-left","text-width":"medium","overline":"Overline text","title":"Slide heading","description":"<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>","link-url":"\/","link-text":"View more"}},"16627628783a501090-3":{"type":"image","settings":{"text-position":"bottom-left","text-width":"medium","overline":"Overline text","title":"Slide heading","description":"<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>","link-url":"\/","link-text":"View more"}}},"block_order":["16627628783a501090-0","16627628783a501090-1","16627628783a501090-2","16627628783a501090-3"],"settings":{"text-color":"auto","background-color":"none","spacing-above":false,"spacing-below":false,"spacing-around-blocks":false,"image-height":3,"darken-image":true,"blocks_per_slide":2,"blocks_per_slide_mobile":"1","box-around-text":false,"mobile-overlay":true,"auto-rotate":false,"rotate-frequency":7,"transition_type":"slide"}},"1662762998b7aadddb":{"type":"featured-text","settings":{"background-color":"none","light-text":false,"container-width":4,"spacing-above":true,"spacing-below":true,"overline":"Hey there","heading":"Nice to meet you!","text":"<p>Valley Sausage Co. has been long in the making, husband & wife, butcher & dietitian, chef & sous chef, we have a unique background and complimentary skill sets that led us to start Valley Sausage Co! <\/p><p>Will worked as a butcher for 5 years in Toronto, learning from the best in the business at Sanagan’s Meat Locker. Tamara worked as a private chef and dietitian over the last 3 years and in recipe development for the last 6 years. We’ve always loved experimenting in the kitchen and with Will being a butcher, a meat\/ butchery based business became the dream! <\/p><p>We focus on sausage, but not just any sausage - we love to innovate and come up with new and exciting recipes that keep you coming back for more. We will also be offering charcuterie items like rillettes, pates and terrines in the coming months, along with tourtieres and other prepared foods.<\/p><p>We can't wait for you to try our products and we hope you love them as much as we do!<\/p><p>PS: at the moment, you can purchase our products via our weekly sausage bundle on our website and you can find us at various pop ups and markets across the city! Follow us on instagram for updates! <a href=\"https:\/\/www.instagram.com\/valleysausage\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/valleysausage\/\">@valleysausage<\/a><\/p>"}}},"order":["main","1662762878b0f661e1","1662762998b7aadddb"]}
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "show-title": true,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "1662762878b0f661e1": {
+      "type": "slideshow",
+      "blocks": {
+        "16627628783a501090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/valleysausageco-13.jpg",
+            "text-position": "center",
+            "text-width": "large",
+            "overline": "",
+            "title": "Will Thorne-Morris",
+            "description": "<p>Co-founder, Head Butcher & Chef <\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "16627628783a501090-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TamaraSasloveHeadshot.jpg",
+            "text-position": "center",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Tamara Saslove",
+            "description": "<p>Co-founder, Dietitian & Chef <\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "16627628783a501090-2": {
+          "type": "image",
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        },
+        "16627628783a501090-3": {
+          "type": "image",
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "16627628783a501090-0",
+        "16627628783a501090-1",
+        "16627628783a501090-2",
+        "16627628783a501090-3"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "image-height": 3,
+        "darken-image": true,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 7,
+        "transition_type": "slide"
+      }
+    },
+    "1662762998b7aadddb": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Hey there",
+        "heading": "Nice to meet you!",
+        "text": "<p>Valley Sausage Co. has been long in the making, husband & wife, butcher & dietitian, chef & sous chef, we have a unique background and complimentary skill sets that led us to start Valley Sausage Co! <\/p><p>Will worked as a butcher for 5 years in Toronto, learning from the best in the business at Sanagan’s Meat Locker. Tamara worked as a private chef and dietitian over the last 3 years and in recipe development for the last 6 years. We’ve always loved experimenting in the kitchen and with Will being a butcher, a meat\/ butchery based business became the dream! <\/p><p>We focus on sausage, but not just any sausage - we love to innovate and come up with new and exciting recipes that keep you coming back for more. We will also be offering charcuterie items like rillettes, pates and terrines in the coming months, along with tourtieres and other prepared foods.<\/p><p>We can't wait for you to try our products and we hope you love them as much as we do!<\/p><p>PS: at the moment, you can purchase our products via our weekly sausage bundle on our website and you can find us at various pop ups and markets across the city! Follow us on instagram for updates! <a href=\"https:\/\/www.instagram.com\/valleysausage\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/valleysausage\/\">@valleysausage<\/a><\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1662762878b0f661e1",
+    "1662762998b7aadddb"
+  ]
+}
