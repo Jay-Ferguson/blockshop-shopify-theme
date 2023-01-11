@@ -1,12 +1,12 @@
 {
   "current": {
-    "color--accent": "#bf7252",
-    "color-page-bg": "#ffffff",
-    "color-text": "#212121",
+    "color--accent-1": "#bf7252",
+    "bg-color--body": "#ffffff",
+    "color--body": "#212121",
     "color--alternative": "{{ shop.brand.colors.secondary[0].background }}",
-    "color-border": "#e0e0e0",
-    "color-button": "#ffffff",
-    "color-button-bg": "#212121",
+    "color--border": "#e0e0e0",
+    "color--button": "#ffffff",
+    "bg-color-button": "#212121",
     "color-header-bg": "#fafafa",
     "color-header": "#212121",
     "color-header-cart": "#212121",

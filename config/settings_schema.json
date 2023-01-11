@@ -3,7 +3,7 @@
     "name": "theme_info",
     "theme_name": "Blockshop",
     "theme_author": "Troop Themes",
-    "theme_version": "8.6.0",
+    "theme_version": "8.6.2",
     "theme_documentation_url": "https://support.troopthemes.com/guide/getting-started/",
     "theme_support_url": "http://support.troopthemes.com/"
   },
@@ -11,10 +11,16 @@
     "name": "Colors",
     "settings": [
       {
-        "id": "color--accent",
-        "label": "Accent",
+        "id": "color--accent-1",
+        "label": "Accent 1",
         "type": "color",
-        "default": "#bf7252"
+        "default": "#fff4cc"
+      },
+      {
+        "id": "color--accent-2",
+        "label": "Accent 2",
+        "type": "color",
+        "default": "#fff4cc"
       },
       {
         "id": "bg-color--light",
@@ -30,13 +36,13 @@
       },
       {
         "type": "color",
-        "id": "color-page-bg",
+        "id": "bg-color--body",
         "label": "Page background",
         "default": "#ffffff"
       },
       {
         "type": "color",
-        "id": "color-text",
+        "id": "color--body",
         "label": "Text",
         "default": "#444444"
       },
@@ -49,60 +55,31 @@
       },
       {
         "type": "color",
-        "id": "color-border",
+        "id": "color--border",
         "label": "Borders",
         "default": "#ebebeb"
       },
       {
         "type": "color",
-        "id": "color-button",
+        "id": "color--button",
         "label": "Button",
         "default": "#ffffff"
       },
       {
         "type": "color",
-        "id": "color-button-bg",
+        "id": "bg-color--button",
         "label": "Button background",
         "default": "#444444"
-      },
-      { "type": "header", "content": "Header" },
-      {
-        "label": "Background",
-        "type": "color",
-        "id": "color-header-bg",
-        "default": "#444444"
-      },
-      {
-        "label": "Text",
-        "type": "color",
-        "id": "color-header",
-        "default": "#444444"
-      },
-      {
-        "label": "Cart link",
-        "type": "color",
-        "id": "color-header-cart",
-        "default": "#444444"
-      },
-      { "type": "header", "content": "Footer" },
-      {
-        "label": "Background",
-        "type": "color",
-        "id": "bg-color--footer",
-        "default": "#bbbbbb"
-      },
-      {
-        "label": "Text",
-        "type": "color",
-        "id": "color--footer",
-        "default": "#333333"
       }
     ]
   },
   {
     "name": "Typography",
     "settings": [
-      { "type": "header", "content": "Headings" },
+      {
+        "type": "header",
+        "content": "Headings"
+      },
       {
         "id": "typography--heading",
         "label": "Font",
@@ -120,21 +97,39 @@
         "label": "Size",
         "type": "select",
         "options": [
-          { "label": "Extra Large", "value": "x-large" },
-          { "label": "Large", "value": "large" },
-          { "label": "Medium", "value": "medium" },
-          { "label": "Small", "value": "small" }
+          {
+            "label": "Extra Large",
+            "value": "x-large"
+          },
+          {
+            "label": "Large",
+            "value": "large"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "Small",
+            "value": "small"
+          }
         ],
         "default": "medium"
       },
-      { "type": "header", "content": "Navigation and buttons" },
+      {
+        "type": "header",
+        "content": "Navigation and buttons"
+      },
       {
         "id": "typography--accent",
         "label": "Font",
         "type": "font_picker",
         "default": "roboto_n4"
       },
-      { "type": "header", "content": "Paragraphs" },
+      {
+        "type": "header",
+        "content": "Paragraphs"
+      },
       {
         "id": "typography--paragraph",
         "label": "Font",
@@ -146,9 +141,18 @@
         "label": "Size",
         "type": "select",
         "options": [
-          { "label": "Large", "value": "large" },
-          { "label": "Medium", "value": "medium" },
-          { "label": "Small", "value": "small" }
+          {
+            "label": "Large",
+            "value": "large"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "Small",
+            "value": "small"
+          }
         ],
         "default": "medium"
       }
@@ -157,6 +161,30 @@
   {
     "name": "Product grid",
     "settings": [
+      {
+        "id": "product--image-size",
+        "label": "Image size",
+        "type": "select",
+        "options": [
+          {
+            "label": "Natural",
+            "value": "natural"
+          },
+          {
+            "label": "Square (1:1)",
+            "value": "square"
+          },
+          {
+            "label": "Landscape (4:3)",
+            "value": "landscape"
+          },
+          {
+            "label": "Portrait (2:3)",
+            "value": "portrait"
+          }
+        ],
+        "default": "portrait"
+      },
       {
         "type": "checkbox",
         "id": "product--hover-image-enabled",
@@ -190,8 +218,14 @@
         "label": "Text alignment",
         "type": "select",
         "options": [
-          { "label": "Left", "value": "left" },
-          { "label": "Center", "value": "center" }
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label": "Center",
+            "value": "center"
+          }
         ],
         "default": "left"
       },
@@ -205,8 +239,14 @@
         "label": "Label shape",
         "type": "select",
         "options": [
-          { "label": "Square", "value": "square" },
-          { "label": "Round", "value": "round" }
+          {
+            "label": "Square",
+            "value": "square"
+          },
+          {
+            "label": "Round",
+            "value": "round"
+          }
         ],
         "default": "round"
       },
@@ -215,21 +255,52 @@
         "label": "Label color",
         "type": "select",
         "options": [
-          { "label": "Light", "value": "light" },
-          { "label": "Dark", "value": "dark" },
-          { "label": "Accent with dark text", "value": "accent-dark-text" },
-          { "label": "Accent with light text", "value": "accent-light-text" }
+          {
+            "label": "None",
+            "value": "none"
+          },
+          {
+            "label": "Light",
+            "value": "light"
+          },
+          {
+            "label": "Dark",
+            "value": "dark"
+          },
+          {
+            "label": "Accent 1",
+            "value": "accent-1"
+          },
+          {
+            "label": "Accent 2",
+            "value": "accent-2"
+          }
         ],
         "default": "light"
+      },
+      {
+        "id": "product--label-light-text",
+        "label": "Use light text color",
+        "type": "checkbox",
+        "default": false
       },
       {
         "id": "product--show-sale-label",
         "label": "Sale label",
         "type": "select",
         "options": [
-          { "label": "Don't show", "value": "false" },
-          { "label": "Show text", "value": "show-text" },
-          { "label": "Show percent off", "value": "show-percent" }
+          {
+            "label": "Don't show",
+            "value": "false"
+          },
+          {
+            "label": "Show text",
+            "value": "show-text"
+          },
+          {
+            "label": "Show percent off",
+            "value": "show-percent"
+          }
         ],
         "default": "show-text"
       },
@@ -257,7 +328,10 @@
         "default": "Limited edition, Sustainable, Organic",
         "info": "[Learn more](https://support.troopthemes.com/guide/configuring-product-labels/)"
       },
-      { "type": "header", "content": "Quick add" },
+      {
+        "type": "header",
+        "content": "Quick add"
+      },
       {
         "type": "checkbox",
         "id": "product--quick-add-enabled",
@@ -269,8 +343,14 @@
         "id": "product--variant-style",
         "label": "Product variant style",
         "options": [
-          { "label": "Dropdowns", "value": "dropdowns" },
-          { "label": "Buttons", "value": "buttons" }
+          {
+            "label": "Dropdowns",
+            "value": "dropdowns"
+          },
+          {
+            "label": "Buttons",
+            "value": "buttons"
+          }
         ],
         "default": "dropdowns"
       },
@@ -279,13 +359,6 @@
         "id": "product--show-quantity",
         "label": "Show quantity selector",
         "default": false
-      },
-      {
-        "type": "checkbox",
-        "id": "product--smart-payment-button",
-        "label": "Show dynamic checkout button",
-        "info": "Lets customers check out directly using a familiar payment method. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
-        "default": true
       }
     ]
   },
@@ -298,12 +371,24 @@
         "label": "Show in header and mobile menu",
         "default": true
       },
-      { "type": "header", "content": "Type of results" },
-      { "type": "paragraph", "content": "In addition to products" },
+      {
+        "type": "header",
+        "content": "Type of results"
+      },
+      {
+        "type": "paragraph",
+        "content": "In addition to products"
+      },
       {
         "type": "checkbox",
         "id": "search--show-articles",
         "label": "Show blog articles",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "search--show-collections",
+        "label": "Show collections",
         "default": true
       },
       {
@@ -383,8 +468,16 @@
         "label": "Image",
         "info": "Recommended 600px wide and 1200px wide when only showing image"
       },
-      { "type": "url", "id": "popup--image-url", "label": "Link to" },
-      { "type": "page", "id": "popup--page-content", "label": "Page content" },
+      {
+        "type": "url",
+        "id": "popup--image-url",
+        "label": "Link to"
+      },
+      {
+        "type": "page",
+        "id": "popup--page-content",
+        "label": "Page content"
+      },
       {
         "type": "checkbox",
         "id": "popup--newsletter--enabled",
@@ -456,8 +549,14 @@
         "id": "cart--type",
         "label": "Cart type",
         "options": [
-          { "value": "page", "label": "Page" },
-          { "value": "drawer", "label": "Drawer" }
+          {
+            "value": "page",
+            "label": "Page"
+          },
+          {
+            "value": "drawer",
+            "label": "Drawer"
+          }
         ],
         "default": "drawer"
       },
