@@ -1,1 +1,163 @@
-{"sections":{"main":{"type":"product","blocks":{"heading":{"type":"heading","settings":{}},"vendor":{"type":"vendor","settings":{}},"price":{"type":"price","settings":{}},"options":{"type":"options","settings":{"variant-style":"buttons","swatches-enabled":true,"size-chart-enabled":true,"size-chart-option":"size","size-chart-content":""}},"buy-buttons":{"type":"buy-buttons","settings":{"smart-payment-enabled":true}},"pickup":{"type":"pickup","settings":{}},"thumbnails":{"type":"thumbnails","settings":{}},"divider":{"type":"divider","settings":{}},"description":{"type":"description","settings":{}}},"block_order":["heading","vendor","price","options","buy-buttons","pickup","thumbnails","divider","description"],"settings":{"modal-enabled":true,"image-zoom-enabled":true,"loop-enabled":false}},"product-share":{"type":"product-share","settings":{"enabled":false,"twitter-enabled":true,"facebook-enabled":true,"pinterest-enabled":true}},"recommendations":{"type":"product-recommendations","settings":{"show":true,"title":"You may also like","container-width":4,"spacing-above":true,"spacing-below":true}}},"order":["main","product-share","recommendations"]}
+{
+  "sections": {
+    "91f1c20d-0c43-4c53-8fdb-4fa26847628b": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-0": {
+          "type": "overline",
+          "settings": {
+            "text": "Overline text"
+          }
+        },
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-1": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-2": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-4": {
+          "type": "options",
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-5": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-0",
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-1",
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-2",
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-3",
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-4",
+        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-5"
+      ],
+      "settings": {
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured_product": "sausage-making-workshop-at-stray-dog-brewing-company-tuesday-feb-28-2023",
+        "loop-enabled": false
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "settings": {
+          }
+        },
+        "thumbnails": {
+          "type": "thumbnails",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "vendor",
+        "price",
+        "options",
+        "buy-buttons",
+        "pickup",
+        "thumbnails",
+        "divider",
+        "description"
+      ],
+      "settings": {
+        "show-breadcrumbs": true,
+        "modal-enabled": true,
+        "image-zoom-enabled": true,
+        "loop-enabled": false,
+        "mobile-media-style": "slideshow"
+      }
+    },
+    "product-share": {
+      "type": "product-share",
+      "settings": {
+        "enabled": false,
+        "background-color": "none",
+        "light-text": false,
+        "twitter-enabled": true,
+        "facebook-enabled": true,
+        "pinterest-enabled": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show": true,
+        "title": "You may also like",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    }
+  },
+  "order": [
+    "91f1c20d-0c43-4c53-8fdb-4fa26847628b",
+    "main",
+    "product-share",
+    "recommendations"
+  ]
+}
