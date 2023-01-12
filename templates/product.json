@@ -3,12 +3,6 @@
     "91f1c20d-0c43-4c53-8fdb-4fa26847628b": {
       "type": "featured-product",
       "blocks": {
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-0": {
-          "type": "overline",
-          "settings": {
-            "text": "Overline text"
-          }
-        },
         "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-1": {
           "type": "heading",
           "settings": {
@@ -42,7 +36,6 @@
         }
       },
       "block_order": [
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-0",
         "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-1",
         "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-2",
         "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-3",
