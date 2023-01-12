@@ -145,12 +145,32 @@
         "spacing-above": true,
         "spacing-below": true
       }
+    },
+    "0006d1b5-54f6-47e2-bd6f-d27562a65631": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "sausage-making-workshop-kanata-thursday-feb-16-2023",
+          "sausage-making-workshop-at-stray-dog-brewing-company-tuesday-feb-28-2023"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1",
+        "heading": "Featured products",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
     "91f1c20d-0c43-4c53-8fdb-4fa26847628b",
     "main",
     "product-share",
-    "recommendations"
+    "recommendations",
+    "0006d1b5-54f6-47e2-bd6f-d27562a65631"
   ]
 }
