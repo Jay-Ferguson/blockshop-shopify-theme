@@ -38,23 +38,11 @@
         "products-per-row--mobile": "1",
         "number-of-rows": 4
       }
-    },
-    "recent-products": {
-      "type": "recent-products",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "heading": "Recently viewed",
-        "title-alignment": "left",
-        "spacing-above": false,
-        "spacing-below": true
-      }
     }
   },
   "order": [
     "collection-header",
     "navigation",
-    "main",
-    "recent-products"
+    "main"
   ]
 }

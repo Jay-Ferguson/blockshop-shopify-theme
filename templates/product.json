@@ -1,56 +1,5 @@
 {
   "sections": {
-    "91f1c20d-0c43-4c53-8fdb-4fa26847628b": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-1": {
-          "type": "heading",
-          "settings": {
-          }
-        },
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-2": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-4": {
-          "type": "options",
-          "settings": {
-            "variant-style": "buttons",
-            "swatches-enabled": true,
-            "size-chart-enabled": true,
-            "size-chart-option": "size",
-            "size-chart-content": ""
-          }
-        },
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-5": {
-          "type": "buy-buttons",
-          "settings": {
-            "smart-payment-enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-1",
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-2",
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-3",
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-4",
-        "template--16721745674483__91f1c20d-0c43-4c53-8fdb-4fa26847628b-1673558287ce13dffc-5"
-      ],
-      "settings": {
-        "background-color": "none",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured_product": "sausage-making-workshop-at-stray-dog-brewing-company-tuesday-feb-28-2023",
-        "loop-enabled": false
-      }
-    },
     "main": {
       "type": "product",
       "blocks": {
@@ -167,7 +116,6 @@
     }
   },
   "order": [
-    "91f1c20d-0c43-4c53-8fdb-4fa26847628b",
     "main",
     "product-share",
     "recommendations",
